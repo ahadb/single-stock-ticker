@@ -1,20 +1,25 @@
 {
-  "name": "stocks-app",
+  "name": "single-stock-ticker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/react": "^10.4.8",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-jss": "^10.3.0",
+    "react-query": "^2.5.13",
     "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier:write": "prettier --write 'src/**/*.js'"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +35,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "msw": "^0.20.4",
+    "react-query-devtools": "^2.4.2"
   }
 }
