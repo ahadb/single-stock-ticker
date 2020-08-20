@@ -24,7 +24,7 @@ I've kept deps at a minimal except for what comes out of the box for Create Reac
 1. CSS in JS
 2. React Query
 3. Axios
-4. MSW for web worker REST API testing (dev dep)
+4. ~~MSW for web worker REST API testing (dev dep)~~
 
 ## Data
 
